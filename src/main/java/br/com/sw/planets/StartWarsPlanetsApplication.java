@@ -35,7 +35,6 @@ public class StartWarsPlanetsApplication extends SpringBootServletInitializer {
 	
 	@GetMapping("/")
 	public String home() {
-
 		return "<h1> Application running successfully! <h1>";
 	}
 	
